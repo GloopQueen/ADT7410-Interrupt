@@ -12,12 +12,6 @@
 /*
    INTERRUPT NOTES:
 
-   This is done assuming your sensor is defined as 'tempsensor',
-   if you defined it as something else change those parts.
-   You'll need to re-run this function every time your interrupt fires
-   to reset it (assuming your ADT7410's still in the default modes.)
-   I'm not sure why, I likely missed something, but it works.
-
    For this sketch, I connected the ADT's int pin to the Arduino's digital 3.
    All other wiring follows the Adafruit ADT article (it's just a regular i2c hookup)
 
